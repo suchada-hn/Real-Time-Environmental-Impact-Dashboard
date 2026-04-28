@@ -19,7 +19,7 @@ import {
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card";
 import { useApiCall } from "@/services/api/useApiCall";
 import { carbonApi } from "@/services/api/carbonApi";
-import GlobalEmissions from "./GlobalEmission";
+import GlobalEmissions from "./globalEmission";
 import { useNavigate } from "react-router-dom";
 import Navigation, { useEmissions } from "./Navigation";
 import { resources } from "./Resources";
